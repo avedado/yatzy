@@ -1,6 +1,5 @@
 from yatzy1 import Yatzy
 
-
 # These unit tests can be run using the py.test framework
 # available from http://pytest.org/
 
@@ -94,3 +93,4 @@ def test_largeStraight():
 def test_fullHouse():
     assert 18 == Yatzy.fullHouse(6, 2, 2, 2, 6)
     assert 0 == Yatzy.fullHouse(2, 3, 4, 5, 6)
+
