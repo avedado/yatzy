@@ -1,3 +1,4 @@
+
 class Yatzy:
 
     @staticmethod
